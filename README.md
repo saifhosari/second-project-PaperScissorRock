@@ -7,7 +7,7 @@ the Stone emoji represents the Rock.<br/>
 the Leaf emoji represents the Paper.<br/>
 the Scissors emoji clearly represents the Scissors.<br/>
 
-![PaperScissorRock](/images/PaperScissorRock.png)
+![PaperScissorRock](/images/responsiveness.png)
 
 # Game Play
 

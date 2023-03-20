@@ -19,7 +19,7 @@ the newest rounds go on top and then scroll down as they get older and older so 
 # Deployment
 
 * The site was deployed to GitHub pages <br/>
- The live link can be found here - 
+ The live link can be found here - https://saifhosari.github.io/second-project-PaperScissorsRock/
 
  # Credits 
 

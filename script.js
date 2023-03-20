@@ -1,4 +1,5 @@
 const buttons= document.querySelectorAll("[data-selection]");
+const finalColumn = document.querySelector("[data-final-column]")
 const CHOICES = [
 {
     name:"rock",
@@ -30,7 +31,19 @@ const makeSelection = (selection)=>{
     const zombieSelection = randomSelection()
     const youWinner = isWinner(selection,zombieSelection)
     const zombieWinner = isWinner(zombieSelection,selection)
-    console.log(zombieSelection)
+
+    addSelectionResult(zombieSelection,zombieWinner)
+    addSelectionResult(selection,youWinner)
+}
+
+function addSelectionResult(selection,winner){
+    const div = document.createElement("div")
+    div.innerText(selection.emoji)
+    div.classList.add("result-selection")
+    if(winner) {
+        div.classList.add("winner")
+    }
+finalColumn.after(div)
 }
 
 function isWinner(selection,opponentSelection) {

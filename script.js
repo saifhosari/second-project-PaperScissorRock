@@ -37,8 +37,12 @@ const makeSelection = (selection)=>{
     addSelectionResult(zombieSelection,zombieWinner)
     addSelectionResult(selection,youWinner)
 
-    incrementScore(yourScoreSpan)
+   if (youWinner){
+    incrementScore(yourScoreSpan) 
+     } 
+   if (zombieWinner) {
     incrementScore(zombieScoreSpan)
+   }
 }
 
 function incrementScore(scoreSpan){

@@ -27,9 +27,17 @@ makeSelection(selection)
 })
 
 const makeSelection = (selection)=>{
-    console.log(selection)
+    const zombieSelection = randomSelection()
+    const youWinner = isWinner(selection,zombieSelection)
+    const zombieWinner = isWinner(zombieSelection,selection)
+    console.log(zombieSelection)
+}
+
+function isWinner(selection,opponentSelection) {
+return selection.beats === opponentSelection.name
 }
 
 function randomSelection() {
-    const randomIndex = Math.random() * CHOICES.length
+    const randomIndex = Math.floor(Math.random() * CHOICES.length)
+    return CHOICES[randomIndex]
 }

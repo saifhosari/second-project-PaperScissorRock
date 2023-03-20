@@ -1,3 +1,6 @@
+// Note: i learned how to build this game one year ago and this Youtube teacher was suggested by my teacher so i learned from it and kept it in my memory by heart.
+// credit and link to it : https://www.youtube.com/watch?v=1yS-JV4fWqY
+
 const buttons= document.querySelectorAll("[data-selection]");
 const finalColumn = document.querySelector("[data-final-column]")
 const zombieScoreSpan = document.querySelector("[data-zombie-score]")

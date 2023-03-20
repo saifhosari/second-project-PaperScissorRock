@@ -8,7 +8,7 @@ background-color:rgb(224, 191, 188);
 
 .selections{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .selection{
     font-size: 3rem;

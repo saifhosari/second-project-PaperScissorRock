@@ -23,4 +23,4 @@ the newest rounds go on top and then scroll down as they get older and older so 
 
  # Credits 
 
- i give credit to this Video that i learned year ago how to build this game from : https://www.youtube.com/watch?v=1yS-JV4fWqY
+ i give credit to this Video that i learned a year ago how to build this game from : https://www.youtube.com/watch?v=1yS-JV4fWqY

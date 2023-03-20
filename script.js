@@ -36,10 +36,13 @@ const makeSelection = (selection)=>{
 
     addSelectionResult(zombieSelection,zombieWinner)
     addSelectionResult(selection,youWinner)
+
+    incrementScore(yourScoreSpan)
+    incrementScore(zombieScoreSpan)
 }
 
 function incrementScore(scoreSpan){
-scoreSpan.innerText = parseInt(scoreSpan.innerText)
+scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1
 }
 
 function addSelectionResult(selection,winner){
